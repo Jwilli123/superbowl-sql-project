@@ -1,3 +1,12 @@
+/* 
+  Superbowl Analysis SQL Script  
+  ------------------------------------------
+  This script explores Super Bowl data from 1967 to 2020 using SQL queries. 
+  It includes analysis on winning scores, MVPs, point differences, and team appearances. 
+  It also uses a CTE to evaluate whether a team's performance in a specific game 
+  was above or below their average scoring performance. Great for data storytelling!
+*/
+
 /* Show all superbowl data from 1967 - 2020 */
 SELECT * FROM superbowls;
 
