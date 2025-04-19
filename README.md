@@ -70,12 +70,12 @@ Here are some of the analysis queries included in this project:
    SELECT *
    FROM superbowls
    WHERE Winner_Pts > 30 AND Loser_Pts < 10;
+```
 
 ## Future Improvements
-- Extend the analysis to include additional statistics, like the average number of touchdowns or turnovers.
-- Create a web-based interface or dashboard to visualize the results of the analysis.
+- Extend the analysis to include additional statistics, such as the average number of touchdowns or turnovers. These statistics could be calculated by aggregating data from individual games and dividing by the total number of games. They are relevant as they provide deeper insights into team performance and game dynamics over the years.
+- Develop a web-based interface or dashboard to visualize the results of the analysis using tools like Flask or Django for the backend and React or Chart.js for the frontend.
+- Incorporate interactive features in the dashboard, such as filters for specific teams, years, or statistics.
 
 ## License
-This project is open-source and available under the [MIT License](https://opensource.org/licenses/MIT).
-
-   
+This project is open-source and available under the [MIT License](https://opensource.org/licenses/MIT). This license permits reuse, modification, and distribution of the project, provided that proper attribution is given to the original author.
