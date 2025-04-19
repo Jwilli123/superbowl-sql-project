@@ -73,9 +73,10 @@ Here are some of the analysis queries included in this project:
 ```
 
 ## Future Improvements
-- Extend the analysis to include additional statistics, such as the average number of touchdowns or turnovers. These statistics could be calculated by aggregating data from individual games and dividing by the total number of games. They are relevant as they provide deeper insights into team performance and game dynamics over the years.
-- Develop a web-based interface or dashboard to visualize the results of the analysis using tools like Flask or Django for the backend and React or Chart.js for the frontend.
-- Incorporate interactive features in the dashboard, such as filters for specific teams, years, or statistics.
+- Extend the analysis to include additional statistics, such as the average number of touchdowns or turnovers. These stats could provide deeper insight into team performance and game dynamics over the years.
+- Develop a Tableau dashboard to visualize trends, game outcomes, and team performance over time in a more interactive and user-friendly way.
+- Incorporate filters in the Tableau dashboard to allow users to explore data by team, year, or MVPs, etc.
+- Add more historical or play-by-play data to enhance the analysis with metrics like total yards, turnovers, or time of possession.
 
 ## License
 This project is open-source and available under the [MIT License](https://opensource.org/licenses/MIT). This license permits reuse, modification, and distribution of the project, provided that proper attribution is given to the original author.
