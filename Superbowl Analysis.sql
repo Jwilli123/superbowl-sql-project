@@ -16,7 +16,7 @@ SELECT Date, Winner, (MAX(Winner_Pts)) AS Most_Won_Pts, Loser, Loser_Pts
 FROM superbowls;
 
 
-/* Shows the game, winner, loser, and points for the team who lost and had the least amount of points won points out of all the superbowls up until 2020*/
+/* Shows the game, winner, loser, and points for the team who lost and had the least amount of points won points out of all the superbowls up until 2020 */
 SELECT Date, Loser, MIN(Loser_Pts), Winner, Winner_Pts
 FROM superbowls;
 
